@@ -1,4 +1,4 @@
-package com.lineate.bench.pattern.factory.abstractcreator.product;
+package com.lineate.bench.pattern.abstractfactory.product.shape;
 
 public class Square implements Shape {
     @Override
