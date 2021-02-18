@@ -8,7 +8,7 @@ import com.lineate.bench.pattern.factory.abstractcreator.product.Square;
 public class ShapeFactory {
 
     public Shape getShape(String shapeType) {
-        if(shapeType == null) {
+        if (shapeType == null) {
             return null;
         } else if (shapeType.equalsIgnoreCase("circle")) {
             return new Circle();
