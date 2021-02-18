@@ -1,4 +1,4 @@
-package com.lineate.bench.pattern.abstractfactory.product.color;
+package com.lineate.bench.pattern.abstractfactory.example.product.color;
 
 public class Green implements Color {
     @Override

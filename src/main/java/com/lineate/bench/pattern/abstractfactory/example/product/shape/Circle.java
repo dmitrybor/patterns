@@ -1,4 +1,4 @@
-package com.lineate.bench.pattern.abstractfactory.product.shape;
+package com.lineate.bench.pattern.abstractfactory.example.product.shape;
 
 public class Circle implements Shape {
     @Override
