@@ -1,4 +1,4 @@
-package com.lineate.bench.pattern.singleton.doublecheck;
+package com.lineate.bench.pattern.singleton.billpugh;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,16 +7,16 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.ThreadPoolExecutor;
 
-public class TestDoublecheckedSingleton {
+public class TestBillSingleton {
 
-    public static void main(String[] args) throws ExecutionException, InterruptedException {
+    public static void main(String[] args) {
         ThreadPoolExecutor executor =
                 (ThreadPoolExecutor) Executors.newFixedThreadPool(3);
 
         List<Future<Object>> results = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
             Future<Object> result = executor.submit(() -> {
-                DoublecheckedSingleton s = DoublecheckedSingleton.getInstance();
+                BillSingleton s = BillSingleton.getInstance();
                 s.setData((int)Thread.currentThread().getId());
                 System.out.println(Thread.currentThread().getName() + ": BillSingleton eference: " + s);
                 System.out.println(Thread.currentThread().getName() + ": Data: " + s.getData());
