@@ -1,4 +1,4 @@
-package com.lineate.bench.pattern.builder;
+package com.lineate.bench.pattern.builder.example;
 
 import java.util.LinkedList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.lineate.bench.pattern.builder;
+package com.lineate.bench.pattern.builder.example;
 
 public class Client {
     public static void main(String[] args) {

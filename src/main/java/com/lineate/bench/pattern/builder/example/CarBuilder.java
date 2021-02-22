@@ -1,4 +1,4 @@
-package com.lineate.bench.pattern.builder;
+package com.lineate.bench.pattern.builder.example;
 
 public class CarBuilder implements VehicleBuilder {
     private Vehicle car = new Vehicle();
