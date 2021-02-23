@@ -1,4 +1,4 @@
-package com.lineate.bench.pattern.adapter.example.exercise;
+package com.lineate.bench.pattern.adapter.exercise;
 
 public class AdvancedMediaPlayerAdapter implements MediaPlayer {
     private AdvancedMediaPlayer advancedMediaPlayer;

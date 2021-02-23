@@ -1,4 +1,4 @@
-package com.lineate.bench.pattern.adapter.example.exercise;
+package com.lineate.bench.pattern.adapter.exercise;
 
 public interface AdvancedMediaPlayer {
     void loadFileName(String audioType, String fileName);
