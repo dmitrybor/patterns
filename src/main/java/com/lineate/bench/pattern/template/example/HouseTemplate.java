@@ -1,4 +1,4 @@
-package com.lineate.bench.pattern.template;
+package com.lineate.bench.pattern.template.example;
 
 public abstract class HouseTemplate {
 
